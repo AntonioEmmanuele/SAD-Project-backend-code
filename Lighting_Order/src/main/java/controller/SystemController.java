@@ -35,7 +35,7 @@ import com.google.gson.JsonArray;
  */
 
 @Service("SystemController")
-@ComponentScan(basePackages= {"MenuAndWareHouseArea","UsersData","RestaurantArea","broker"})
+@ComponentScan(basePackages= {"MenuAndWareHouseArea","UsersData","TableAndOrdersArea","broker"})
 public class SystemController  extends GeneralController implements controllerIface {
 	@Autowired
 	@Qualifier("brokerDispatcher")
